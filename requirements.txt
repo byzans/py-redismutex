@@ -1,3 +1,1 @@
-future==0.16.0
-redis==3.5.3
-sphinx_rtd_theme==0.3.0
+redis==4.2.0
