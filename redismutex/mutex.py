@@ -53,8 +53,7 @@ class RedisMutex(object):
 
     def __exit__(self, exception_type, exception_value, traceback):
         self.release_lock()
-        # Let the exceptions pass through
-        return False
+        return self
 
     @property
     def key(self):
